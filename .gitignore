@@ -8,6 +8,10 @@ __pycache__/
 .env
 .venv
 
+# Swap files
+*.swp
+*.swo
+
 # Logs
 *.log
 
