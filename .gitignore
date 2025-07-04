@@ -1,0 +1,25 @@
+# Python artifacts
+__pycache__/
+*.pyc   
+*.pyo
+*.so
+
+# Poetry environements
+.env
+.venv
+
+# Logs
+*.log
+
+# Data
+data/
+outputs/
+
+# Editor 
+.DS_store
+.vscode/
+.idea/
+
+#Jupyter
+.ipynb_checkpoints/
+

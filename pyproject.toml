@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "minigsplatpy"
+version = "0.1.0"
+description = "Gaussian Spltting Python Implementation"
+authors = ["Shaurya Parashar <shauryaparashar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.3.1"
+opencv-python = "^4.11.0.86"
+matplotlib = "^3.10.3"
+tqdm = "^4.67.1"
+imageio = "^2.37.0"
+pyquaternion = "^0.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
